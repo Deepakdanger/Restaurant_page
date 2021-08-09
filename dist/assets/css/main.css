@@ -1,81 +1,80 @@
 .nav-bar {
-    background-color: #5b80f8;
-    padding: 1rem;
-  }
+  background-color: #5b80f8;
+  padding: 1rem;
+}
   
-  .nav-link {
-    list-style: none;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-  }
+.nav-link {
+  list-style: none;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
 
-  .home_div {
-    width: 100%;
-    height: 33rem;
+.home_div {
+  width: 100%;
+  height: 33rem;
+}
 
-  }
+.content1 {
+  color: rgb(255, 255, 255);
+}
 
-  .content1 {
-    color: rgb(255, 255, 255);
-  }
-
-  .content2 {
-    font-size: 21px;
-  }
+.content2 {
+  font-size: 21px;
+}
+ 
+.menu-div {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  padding: 3rem;
+  background-color: rgb(43, 41, 41);
+}
+ 
+.menu-header {
+  color: white;
+  font-size: 24px;
+  margin: 1rem 0;
+}
   
-  .menu-div {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 3rem;
-    background-color: rgb(43, 41, 41);
-  }
+.menu-desc {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 1rem;
+}
   
-  .menu-header {
-    color: white;
-    font-size: 24px;
-    margin: 1rem 0;
-  }
+.menu-img {
+  height: 200px;
+}
   
-  .menu-desc {
-    color: white;
-    font-size: 18px;
-    line-height: 30px;
-    padding: 1rem;
-  }
+.contact {
+  padding: 6rem;
+}
   
-  .menu-img {
-    height: 200px;
-  }
+.contact-para {
+  color: rgb(150, 8, 8); 
+  text-align: center;
+  margin-top: 3.5rem;
+}
   
-  .contact {
-    padding: 6rem;
-  }
+.name {
+  font-size: 48px;
+}
   
-  .contact-para {
-    color: rgb(150, 8, 8); 
-    text-align: center;
-    margin-top: 3.5rem;
-  }
+.gmail {
+  font-size: 36px;
+  line-height: 48px;
+}
   
-  .name {
-    font-size: 48px;
-  }
+.phone {
+  font-size: 24px;
+  line-height: 40px;
+}
   
-  .gmail {
-    font-size: 36px;
-    line-height: 48px;
-  }
+.pad {
+  padding: 4rem;
+}
   
-  .phone {
-    font-size: 24px;
-    line-height: 40px;
-  }
-  
-  .pad {
-    padding: 4rem;
-  }
-  
-  .links {
-    cursor: pointer;
-  }
+.links {
+  cursor: pointer;
+}

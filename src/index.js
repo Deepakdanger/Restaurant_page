@@ -1,4 +1,3 @@
-console.log("Hello");
 import nav from './nav';
 import home from './home';
 import menu from './menu';
@@ -20,9 +19,9 @@ const tab = (linkId) => {
 };
 
 link.forEach((li) => {
-    li.addEventListener('click', () => {
-      const element = tab(li.id);
-      parent.removeChild(parent.childNodes[1]);
-      parent.appendChild(element);
-    });
+  li.addEventListener('click', () => {
+    const element = tab(li.id);
+    parent.removeChild(parent.childNodes[1]);
+    parent.appendChild(element);
+  });
 });
