@@ -6,23 +6,23 @@ const nav = () => {
     ul.className = 'nav-link';
     nav.appendChild(ul);
   
-    const li = document.createElement('li');
-    li.className = 'links';
-    li.id = 'home';
-    li.innerHTML = 'Home';
-    ul.appendChild(li);
+    const link1 = document.createElement('li');
+    link1.className = 'links';
+    link1.id = 'home';
+    link1.innerHTML = 'Home';
+    ul.appendChild(link1);
   
-    const lit = document.createElement('li');
-    lit.className = 'links';
-    lit.id = 'menu';
-    lit.innerHTML = 'Menu';
-    ul.appendChild(lit);
+    const link2 = document.createElement('li');
+    link2.className = 'links';
+    link2.id = 'menu';
+    link2.innerHTML = 'Menu';
+    ul.appendChild(link2);
   
-    const lite = document.createElement('li');
-    lite.className = 'links';
-    lite.id = 'contact';
-    lite.innerHTML = 'Contact';
-    ul.appendChild(lite);
+    const link3 = document.createElement('li');
+    link3.className = 'links';
+    link3.id = 'contact';
+    link3.innerHTML = 'Contact';
+    ul.appendChild(link3);
   
     return nav;
   };
