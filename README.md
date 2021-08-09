@@ -19,7 +19,7 @@ This project is a small restaurant app created using javascript.Here There is 3 
 
 ## Live Demo Link
 
-[Live Demo]()
+[Live Demo](https://deepakdanger.github.io/Restaurant_page/)
 
 
 ## Getting Started
