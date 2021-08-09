@@ -5,13 +5,11 @@ import menu from './menu';
 import contact from './contact';
 
 const parent = document.getElementById('content');
-parent.style.background = "url('assets/raw.jpg') center no-repeat";
-parent.innerHTML="NAKN"
-
+parent.style.background = "url('assets/img/raw.jpg') center no-repeat ";
 parent.appendChild(nav());
+
 const link = document.querySelectorAll('.links');
 parent.appendChild(home());
-
 const tab = (linkId) => {
   let a;
   if (linkId === 'home') a = home();
