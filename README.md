@@ -1,7 +1,7 @@
 
 # Restaurant
 
-This project is a small restaurant app created using javascript.Here There is 3 pages home, menu and contact.
+This project is a small restaurant app created using javascript.Here There are 3 pages home, menu and contact.
       
 ## 🔧 Built with
 

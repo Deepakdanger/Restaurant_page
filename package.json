@@ -1,5 +1,5 @@
 {
-  "name": "Restaurant_page",
+  "name": "restaurant_page",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development --open"
+    "start": "webpack serve --mode development --open",
+    "live": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
